@@ -1,0 +1,16 @@
+{
+  "name": "dodota",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "request": "node index.js",
+    "merge": "node ./node_modules/.bin/csv-concat ./data/csv  ./data/concat.csv"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv-concat": "^1.0.1",
+    "node-fetch": "^2.6.0"
+  }
+}
